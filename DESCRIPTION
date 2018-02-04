@@ -1,0 +1,16 @@
+Package: ImfDataGui
+Title: Gui to download IMF data 
+Version: 0.0.0.9000
+Authors@R: person("Gianni", "Lombardo", email = "giannilmbd@gmail.com", role = c("aut", "cre"))
+Description: Using IMFData package, this function opens a GUI offering a list of data options and returns a data-frame (panel).
+Depends: R (>= 3.4.3)
+License: MIT+ file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: reshape2,
+    IMFData,
+    gWidgetsRGtk2
+RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
